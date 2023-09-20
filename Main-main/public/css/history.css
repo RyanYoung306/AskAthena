@@ -1,0 +1,43 @@
+.container{
+        background: transparent
+}
+body{
+    background: linear-gradient(to right top, #0f2027, #203a43, #2c5364, #3f729b, #64b6ac);
+    color: white;
+}
+#chatHistory{
+    background: white;
+    margin: 2% 15%;
+    border-radius: 2%;
+    padding: 4%;
+    color: #0f2027;
+}
+#clear-history-btn {
+    background-color: #FF4136;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+
+    margin-left: 80%;
+}
+#clear-history-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+}
+
+  #refreshButton{
+    cursor: pointer; 
+  }
+
+  footer{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 800px;
+}
+
